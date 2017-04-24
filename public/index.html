@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Restaurant</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Exercising my web dev skills.">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="ingredientsPage.js"></script>
+    <script type="text/javascript" src="dishesPage.js"></script>
+    <script type="text/javascript" src="makeYourOwnPage.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="menu active" id="homePageHeader"><a href="#"><i class="glyphicon glyphicon-home w3-large"></i></a></li>
+                    <li class="menu" id="ingredientsPageHeader"><a href="#">Ingredients</a></li>
+                    <li class="menu" id="dishesPageHeader"><a href="#">Dishes</a></li>
+                    <li class="menu" id="makeYourOwnPageHeader"><a href="#">Make your own</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="selectedPageContainer">
+
+            <div id="homePage">
+                <h1>Welcome to website!</h1>
+            </div>
+
+            <div id="ingredientsPage">
+                <h2>Ingredients</h2>
+
+                <table class="table table-striped" id="ingredientsTable">
+                    <thead>
+                        <tr>
+                            <th>Picture</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Available Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="dishesPage">
+                <h2>Dishes</h2>
+
+                <table class="table table-striped" id="dishesTable">
+                    <thead>
+                        <tr>
+                            <th>Picture</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="makeYourOwnPage">
+                <h2>Make your own</h2>
+                <div id="makeYourOwnName" class="row">
+                    <span class="col-md-4">Name:</span>
+                    <input type="text" class="col-md-4">
+                    <span id="emptyNameInputError">Please input the name of your dish.</span>
+                </div>
+
+                <div id="makeYourOwnURL" class="row">
+                    <span class="col-md-4">Dish Image URL:</span>
+                    <input type="text" class="col-md-4">
+                </div>
+
+                <div id="makeYourOwn">
+                    <div id="noIngredientsSelectedError">Please select at least an ingredient.</div>
+                </div>
+
+                <div id="makeYourOwnTotalPrice" class="row">
+                    <span class="col-md-4">Total price:</span>
+                    <input type="text" class="col-md-4" readonly>
+                </div>
+
+                <button id="makeYourOwnSave" class="row" type="submit">Save</button>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Water",
+    "availableQuantity": 10,
+    "quantity": 500,
+    "unit": "ml",
+    "price": 3,
+    "url": "images/water.png"
+  },
+  {
+    "name": "Fries",
+    "availableQuantity": 20,
+    "quantity": 100,
+    "unit": "g",
+    "price": 5,
+    "url": "images/fries.png"
+  },
+  {
+    "name": "Bacon",
+    "availableQuantity": 30,
+    "quantity": 100,
+    "unit": "g",
+    "price": 10,
+    "url": "images/bacon.png"
+  },
+  {
+    "name": "Cheese",
+    "availableQuantity": 40,
+    "quantity": 100,
+    "unit": "g",
+    "price": 5,
+    "url": "images/cheese.png"
+  },
+  {
+    "name": "Pork chop",
+    "availableQuantity": 50,
+    "quantity": 100,
+    "unit": "g",
+    "price": 10,
+    "url": "images/porkChop.png"
+  },
+  {
+    "name": "Corn",
+    "availableQuantity": 60,
+    "quantity": 100,
+    "unit": "g",
+    "price": 5,
+    "url": "images/corn.png"
+  }
+]

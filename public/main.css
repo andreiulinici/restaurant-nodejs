@@ -1,0 +1,90 @@
+html {
+    overflow-y: scroll;
+}
+
+h1,
+h2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+}
+
+body {
+    font-size: 15px;
+}
+
+#ingredientsTable,
+#dishesTable {
+    display: inline-block;
+}
+
+.ingredientImage,
+.dishImage {
+    width: 120px;
+    height: 120px;
+}
+
+.ingredientText {
+    width: 120px;
+    height: 120px;
+}
+
+.dishText {
+    width: 150px;
+    height: 120px;
+}
+
+#ingredientsPage,
+#dishesPage,
+#makeYourOwnPage {
+    width: 650px;
+    margin-left: 300px;
+}
+
+#makeYourOwnName {
+    margin-bottom: 15px;
+}
+
+#makeYourOwnURL {
+    margin-bottom: 15px;
+}
+
+.makeYourOwnIngredient {
+    margin-bottom: 5px;
+}
+
+.makeYourOwnLabel span {
+    margin-left: 10px;
+}
+
+.makeYourOwnLabel span {
+    margin-left: 10px;
+}
+
+.makeYourOwnURL input {
+    margin-left: 10px;
+}
+
+.makeYourOwnQuantity {
+    text-align: right;
+}
+
+.makeYourOwnQuantity input {
+    margin-left: 10px;
+    width: 50px;
+}
+
+#makeYourOwnTotalPrice {
+    margin-top: 15px;
+}
+
+#makeYourOwnSave {
+    margin-top: 25px;
+    margin-left: 190px;
+}
+
+#emptyNameInputError,
+#noIngredientsSelectedError,
+.stockErrorIngredient {
+    color: #ff0000;
+}
